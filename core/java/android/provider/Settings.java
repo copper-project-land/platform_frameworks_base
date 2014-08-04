@@ -2978,8 +2978,8 @@ public final class Settings {
          * Whether to scramble a pin unlock layout
          * @hide
          */
-        public static final String SCRAMBLE_PIN_LAYOUT =
-            "lockscreen_scramble_pin_layout";
+        public static final String LOCKSCREEN_PIN_SCRAMBLE_LAYOUT =
+                "lockscreen_scramble_pin_layout";
 
         /**
          * A formatted string of the next alarm that is set, or the empty string
