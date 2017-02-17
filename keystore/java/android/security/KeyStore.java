@@ -206,6 +206,9 @@ public class KeyStore {
     }
 
     public boolean contains(String key, int uid) {
+        if (mBinder == null) {
+            return false;
+        }
         try {
             return mBinder.exist(key, uid) == NO_ERROR;
         } catch (RemoteException e) {
