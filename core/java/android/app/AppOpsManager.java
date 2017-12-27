@@ -1183,7 +1183,7 @@ public class AppOpsManager {
      * @hide
      */
     public static int opToBgOp(int op) {
-        return sOpToBgOp.get(op);
+        return sOpToBgOp.getOrDefault(op, OP_NONE);
     }
 
     /**
