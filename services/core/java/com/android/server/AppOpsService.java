@@ -1125,17 +1125,13 @@ public class AppOpsService extends IAppOpsService.Stub {
                 try {
                     boolean fg = ActivityManager.getService().isAppForeground(uid);
                     if (!fg) {
-                        Op bgOp = getOpLocked(ops, AppOpsManager.opToBgOp(code), true);
-                        if (bgOp.mode != AppOpsManager.MODE_ALLOWED) {
-                            if (DEBUG) Log.d(TAG, "noteOperation: reject #" + op.mode + " for code "
-                                    + switchCode + " (" + code + ") uid " + uid + " package "
-                                    + packageName + " as it is not a foreground app");
-                            op.rejectTime = System.currentTimeMillis();
-                            return AppOpsManager.MODE_IGNORED;
+                        Op bgOp;
+                        if (AppOpsManager.isBgOp(code)) {
+                            bgOp = getOpLocked(ops, AppOpsManager.opToBgOp(code), true);
+                        } else { // isBgOp(switchCode)
+                            bgOp = getOpLocked(ops, AppOpsManager.opToBgOp(switchCode), true);
                         }
-
-                        Op bgSwitchOp = getOpLocked(ops, AppOpsManager.opToBgOp(switchCode), true);
-                        if (bgSwitchOp.mode != AppOpsManager.MODE_ALLOWED) {
+                        if (bgOp.mode != AppOpsManager.MODE_ALLOWED) {
                             if (DEBUG) Log.d(TAG, "noteOperation: reject #" + op.mode + " for code "
                                     + switchCode + " (" + code + ") uid " + uid + " package "
                                     + packageName + " as it is not a foreground app");
@@ -1203,17 +1199,13 @@ public class AppOpsService extends IAppOpsService.Stub {
                 try {
                     boolean fg = ActivityManager.getService().isAppForeground(uid);
                     if (!fg) {
-                        Op bgOp = getOpLocked(ops, AppOpsManager.opToBgOp(code), true);
-                        if (bgOp.mode != AppOpsManager.MODE_ALLOWED) {
-                            if (DEBUG) Log.d(TAG, "startOperation: reject #" + op.mode + " for code "
-                                    + switchCode + " (" + code + ") uid " + uid + " package "
-                                    + packageName + " as it is not a foreground app");
-                            op.rejectTime = System.currentTimeMillis();
-                            return AppOpsManager.MODE_IGNORED;
+                        Op bgOp;
+                        if (AppOpsManager.isBgOp(code)) {
+                            bgOp = getOpLocked(ops, AppOpsManager.opToBgOp(code), true);
+                        } else { // isBgOp(switchCode)
+                            bgOp = getOpLocked(ops, AppOpsManager.opToBgOp(switchCode), true);
                         }
-
-                        Op bgSwitchOp = getOpLocked(ops, AppOpsManager.opToBgOp(switchCode), true);
-                        if (bgSwitchOp.mode != AppOpsManager.MODE_ALLOWED) {
+                        if (bgOp.mode != AppOpsManager.MODE_ALLOWED) {
                             if (DEBUG) Log.d(TAG, "startOperation: reject #" + op.mode + " for code "
                                     + switchCode + " (" + code + ") uid " + uid + " package "
                                     + packageName + " as it is not a foreground app");
