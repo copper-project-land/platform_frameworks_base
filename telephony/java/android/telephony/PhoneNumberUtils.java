@@ -2113,6 +2113,11 @@ public class PhoneNumberUtils
         return isEmergencyNumberInternal(subId, number, countryIso, useExactMatch);
     }
 
+    /** @hide */
+    public static void resetCountryDetectorInfo() {
+//        sCountryDetector = null;
+}
+
     /**
      * isVoiceMailNumber: checks a given number against the voicemail
      *   number provided by the RIL and SIM card. The caller must have
