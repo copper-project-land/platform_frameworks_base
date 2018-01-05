@@ -33,4 +33,6 @@
     <string-array name="config_disabledComponents" translatable="false">
     </string-array>
 
+    <!-- Button brightness -->
+    <integer name="config_buttonBrightnessSettingDefault">255</integer>
 </resources>

@@ -1846,7 +1846,7 @@ public class ActivityManagerService extends IActivityManager.Stub
                     d.show();
                 }
             } break;
-/*            case SHOW_FINGERPRINT_ERROR_UI_MSG: {
+            case SHOW_FINGERPRINT_ERROR_UI_MSG: {
                 if (mShowDialogs) {
                     AlertDialog d = new BaseErrorDialog(mUiContext);
                     d.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ERROR);
@@ -1856,7 +1856,7 @@ public class ActivityManagerService extends IActivityManager.Stub
                     d.setButton(DialogInterface.BUTTON_POSITIVE, mUiContext.getText(R.string.ok),
                             obtainMessage(DISMISS_DIALOG_UI_MSG, d));
                     d.show();
-                }*/
+                }
             } break;
             case SHOW_COMPAT_MODE_DIALOG_UI_MSG: {
                 synchronized (ActivityManagerService.this) {
@@ -7056,7 +7056,11 @@ public class ActivityManagerService extends IActivityManager.Stub
                 profilerInfo.profileFd = profilerInfo.profileFd.dup();
             }
 
-            String buildSerial = Build.UNKNOWN;
+            // We deprecated Build.SERIAL and it is not accessible to
+            // apps that target the v2 security sandbox. Since access to
+            // the serial is now behind a permission we push down the value.
+            String buildSerial = appInfo.targetSandboxVersion < 2
+                    ? sTheRealBuildSerial : Build.UNKNOWN;
 
             // Check if this is a secondary process that should be incorporated into some
             // currently active instrumentation.  (Note we do this AFTER all of the profiling
@@ -14286,10 +14290,10 @@ public class ActivityManagerService extends IActivityManager.Stub
             } catch (RemoteException e) {
             }
 
-/*            if (!Build.isBuildConsistent()) {
+            if (!Build.isBuildConsistent()) {
                 Slog.e(TAG, "Build fingerprint is not consistent, warning user");
                 mUiHandler.obtainMessage(SHOW_FINGERPRINT_ERROR_UI_MSG).sendToTarget();
-            }*/
+            }
 
             long ident = Binder.clearCallingIdentity();
             try {
