@@ -1664,7 +1664,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"நிகழ்வு"</string>
     <string name="muted_by" msgid="6147073845094180001">"<xliff:g id="THIRD_PARTY">%1$s</xliff:g> ஒலியடக்கினார்"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"சாதனத்தில் அகச் சிக்கல் இருக்கிறது, அதனை ஆரம்பநிலைக்கு மீட்டமைக்கும் வரை நிலையற்று இயங்கலாம்."</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"சாதனத்தில் அகச் சிக்கல் இருக்கிறது. விவரங்களுக்கு சாதன தயாரிப்பாளரைத் தொடர்புகொள்ளவும்."</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"USSD கோரிக்கையானது DIAL கோரிக்கைக்கு மாற்றப்பட்டது."</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"USSD கோரிக்கையானது SS கோரிக்கைக்கு மாற்றப்பட்டது."</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"USSD கோரிக்கையானது புதிய USSD கோரிக்கைக்கு மாற்றப்பட்டது."</string>

@@ -1662,7 +1662,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"Үйл явдал"</string>
     <string name="muted_by" msgid="6147073845094180001">"<xliff:g id="THIRD_PARTY">%1$s</xliff:g>-с хаасан"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"Таны төхөөрөмжид дотоод алдаа байна.Та төхөөрөмжөө үйлдвэрээс гарсан төлөвт шилжүүлэх хүртэл таны төхөөрөмж чинь тогтворгүй байж болох юм."</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"Таны төхөөрөмжид дотоод алдаа байна. Дэлгэрэнгүй мэдээлэл авахыг хүсвэл үйлдвэрлэгчтэйгээ холбоо барина уу."</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"USSD хүсэлтийг DIAL хүсэлт болгон өөрчилсөн байна."</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"USSD хүсэлтийг SS хүсэлт болгон өөрчилсөн байна."</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"USSD хүсэлтийг шинэ USSD хүсэлт болгон өөрчилсөн байна."</string>

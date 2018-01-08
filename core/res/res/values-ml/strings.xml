@@ -1664,7 +1664,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"ഇവന്റ്"</string>
     <string name="muted_by" msgid="6147073845094180001">"<xliff:g id="THIRD_PARTY">%1$s</xliff:g>, മ്യൂട്ടുചെയ്‌തു"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"നിങ്ങളുടെ ഉപകരണത്തിൽ ഒരു ആന്തരിക പ്രശ്‌നമുണ്ട്, ഫാക്‌ടറി വിവര പുനഃസജ്ജീകരണം ചെയ്യുന്നതുവരെ ഇതു അസ്ഥിരമായിരിക്കാനിടയുണ്ട്."</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"നിങ്ങളുടെ ഉപകരണത്തിൽ ഒരു ആന്തരിക പ്രശ്‌നമുണ്ട്. വിശദാംശങ്ങൾക്കായി നിർമ്മാതാവിനെ ബന്ധപ്പെടുക."</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"USSD അഭ്യർത്ഥന, DIAL അഭ്യർത്ഥനയായി പരിഷ്‌ക്കരിച്ചു."</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"USSD അഭ്യർത്ഥന, SS അഭ്യർത്ഥനയായി പരിഷ്‌ക്കരിച്ചു."</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"USSD അഭ്യർത്ഥന, പുതിയ USSD അഭ്യർത്ഥനയായി പരിഷ്‌ക്കരിച്ചു."</string>

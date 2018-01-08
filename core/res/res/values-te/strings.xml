@@ -1664,7 +1664,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"ఈవెంట్"</string>
     <string name="muted_by" msgid="6147073845094180001">"<xliff:g id="THIRD_PARTY">%1$s</xliff:g> ద్వారా మ్యూట్ చేయబడింది"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"మీ పరికరంతో అంతర్గత సమస్య ఏర్పడింది మరియు మీరు ఫ్యాక్టరీ డేటా రీసెట్ చేసే వరకు అస్థిరంగా ఉంటుంది."</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"మీ పరికరంతో అంతర్గత సమస్య ఏర్పడింది. వివరాల కోసం మీ తయారీదారుని సంప్రదించండి."</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"USSD అభ్యర్థన డయల్ అభ్యర్థనగా సవరించబడింది."</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"USSD అభ్యర్థన SS అభ్యర్థనగా సవరించబడింది."</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"USSD అభ్యర్థన కొత్త USSD అభ్యర్థనగా సవరించబడింది."</string>

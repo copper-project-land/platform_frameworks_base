@@ -1664,7 +1664,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"Événement"</string>
     <string name="muted_by" msgid="6147073845094180001">"Mis en sourdine par <xliff:g id="THIRD_PARTY">%1$s</xliff:g>"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"Un problème interne est survenu avec votre appareil. Il se peut qu\'il soit instable jusqu\'à ce que vous le réinitialisiez à sa configuration d\'usine."</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"Un problème interne est survenu avec votre appareil. Communiquez avec le fabricant pour obtenir plus de détails."</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"La demande USSD a été modifiée et est maintenant une demande DIAL."</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"La demande USSD a été modifiée et est maintenant une demande SS."</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"La demande USSD a été modifiée et est maintenant une nouvelle demande USSD."</string>

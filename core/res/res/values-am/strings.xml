@@ -1664,7 +1664,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"ክስተት"</string>
     <string name="muted_by" msgid="6147073845094180001">"ድምጽ በ<xliff:g id="THIRD_PARTY">%1$s</xliff:g> ተዘግቷል"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"መሣሪያዎ ላይ የውስጣዊ ችግር አለ፣ የፋብሪካ ውሂብ ዳግም እስኪያስጀምሩት ድረስ ላይረጋጋ ይችላል።"</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"መሣሪያዎ ላይ የውስጣዊ ችግር አለ። ዝርዝሮችን ለማግኘት አምራችዎን ያነጋግሩ።"</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"USSD ጥያቄ ወደ ደውል ጥያቄ ተሻሽሎዋል።"</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"USSD ጥያቄ ወደ SS ጥያቄ ተሻሽሎዋል።"</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"USSD ጥያቄ ወደ አዲስ USSD ጥያቄ ተሻሽሎዋል።"</string>

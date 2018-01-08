@@ -1664,7 +1664,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"ایونٹ"</string>
     <string name="muted_by" msgid="6147073845094180001">"<xliff:g id="THIRD_PARTY">%1$s</xliff:g> کے ذریعے خاموش کردہ"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"آپ کے آلہ میں ایک داخلی مسئلہ ہے اور جب تک آپ فیکٹری ڈیٹا کو دوبارہ ترتیب نہیں دے دیتے ہیں، ہوسکتا ہے کہ یہ غیر مستحکم رہے۔"</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"آپ کے آلہ میں ایک داخلی مسئلہ ہے۔ تفصیلات کیلئے اپنے مینوفیکچرر سے رابطہ کریں۔"</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"‏USSD درخواست میں ترمیم کر کے DIAL درخواست بنا دی گئی ہے۔"</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"‏USSD درخواست میں ترمیم کر کے SS درخواست بنا دی گئی ہے۔"</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"‏USSD درخواست میں ترمیم کر کے نئی USSD درخواست بنا دی گئی ہے۔"</string>

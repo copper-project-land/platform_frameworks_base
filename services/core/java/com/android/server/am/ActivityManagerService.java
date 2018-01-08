@@ -1,4 +1,4 @@
-/*
+	/*
  * Copyright (C) 2006-2008 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -1843,21 +1843,6 @@ public class ActivityManagerService extends IActivityManager.Stub
                     d.setCancelable(false);
                     d.setTitle(mUiContext.getText(R.string.android_system_label));
                     d.setMessage(mUiContext.getText(R.string.system_error_wipe_data));
-                    d.setButton(DialogInterface.BUTTON_POSITIVE, mUiContext.getText(R.string.ok),
-                            obtainMessage(DISMISS_DIALOG_UI_MSG, d));
-                    d.show();
-                }
-            } break;
-            case SHOW_FINGERPRINT_ERROR_UI_MSG: {
-                if (mShowDialogs) {
-                    String buildfingerprint = SystemProperties.get("ro.build.fingerprint");
-                    String[] splitfingerprint = buildfingerprint.split("/");
-                    String vendorid = splitfingerprint[3];
-                    AlertDialog d = new BaseErrorDialog(mUiContext);
-                    d.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ERROR);
-                    d.setCancelable(false);
-                    d.setTitle(mUiContext.getText(R.string.android_system_label));
-                    d.setMessage(mUiContext.getString(R.string.system_error_vendorprint, vendorid));
                     d.setButton(DialogInterface.BUTTON_POSITIVE, mUiContext.getText(R.string.ok),
                             obtainMessage(DISMISS_DIALOG_UI_MSG, d));
                     d.show();
@@ -14299,12 +14284,6 @@ public class ActivityManagerService extends IActivityManager.Stub
                 }
             } catch (RemoteException e) {
             }
-
-            if (!Build.isBuildConsistent()) {
-                Slog.e(TAG, "Build fingerprint is not consistent, warning user");
-                mUiHandler.obtainMessage(SHOW_FINGERPRINT_ERROR_UI_MSG).sendToTarget();
-            }
-
             long ident = Binder.clearCallingIdentity();
             try {
                 Intent intent = new Intent(Intent.ACTION_USER_STARTED);

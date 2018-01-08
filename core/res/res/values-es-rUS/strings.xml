@@ -1664,7 +1664,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"Evento"</string>
     <string name="muted_by" msgid="6147073845094180001">"Silenciados por <xliff:g id="THIRD_PARTY">%1$s</xliff:g>"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"Existe un problema interno con el dispositivo, de modo que el dispositivo puede estar inestable hasta que restablezcas la configuración de fábrica."</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"Existe un problema interno con el dispositivo. Comunícate con el fabricante para obtener más información."</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"La solicitud USSD cambió por una solicitud DIAL."</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"La solicitud USSD cambió por una solicitud SS."</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"La solicitud USSD cambió por una nueva solicitud USSD."</string>

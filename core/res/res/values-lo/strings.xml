@@ -1667,7 +1667,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"ການນັດໝາຍ"</string>
     <string name="muted_by" msgid="6147073845094180001">"ຖືກ​ປິດ​ສຽງ​ໂດຍ <xliff:g id="THIRD_PARTY">%1$s</xliff:g>"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"ມີ​ບັນ​ຫາ​ພາຍ​ໃນ​ກັບ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ, ແລະ​ມັນ​ອາດ​ຈະ​ບໍ່​ສະ​ຖຽນ​ຈົນ​ກວ່າ​ທ່ານ​ຕັ້ງ​ເປັນ​ຂໍ້​ມູນ​ໂຮງ​ງານ​ຄືນ​ແລ້ວ."</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"ມີ​ບັນ​ຫາ​ພາຍ​ໃນ​ກັບ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ. ຕິດ​ຕໍ່ຜູ້​ຜະ​ລິດ​ຂອງ​ທ່ານ​ສຳ​ລັບ​ລາຍ​ລະ​ອຽດ​ຕ່າງໆ."</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"ການ​ຂໍ USSD ຖືກ​ດັດ​ແປງ​ເປັນ​ການ​ຂໍ DIAL ແລ້ວ."</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"ການ​ຂໍ USSD ຖືກ​ດັດ​ແປງ​ເປັນ​ການ​ຂໍ SS ແລ້ວ."</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"ການ​ຂໍ USSD ຖືກ​ດັດ​ແປງ​ເປັນ​ການ​ຂໍ USSD ໃໝ່​ແລ້ວ."</string>

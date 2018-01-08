@@ -1664,7 +1664,6 @@
     <string name="zen_mode_default_events_name" msgid="8158334939013085363">"رویداد"</string>
     <string name="muted_by" msgid="6147073845094180001">"<xliff:g id="THIRD_PARTY">%1$s</xliff:g> آن را بی‌صدا کرد"</string>
     <string name="system_error_wipe_data" msgid="6608165524785354962">"دستگاهتان یک مشکل داخلی دارد، و ممکن است تا زمانی که بازنشانی داده‌های کارخانه انجام نگیرد، بی‌ثبات بماند."</string>
-    <string name="system_error_manufacturer" msgid="8086872414744210668">"دستگاهتان یک مشکل داخلی دارد. برای جزئیات آن با سازنده‌تان تماس بگیرید."</string>
     <string name="stk_cc_ussd_to_dial" msgid="5202342984749947872">"‏درخواست USSD به درخواست DIAL اصلاح می‌شود."</string>
     <string name="stk_cc_ussd_to_ss" msgid="2345360594181405482">"‏درخواست USSD به درخواست SS اصلاح می‌شود."</string>
     <string name="stk_cc_ussd_to_ussd" msgid="7466087659967191653">"‏درخواست USSD به درخواست USSD جدید اصلاح می‌شود."</string>
